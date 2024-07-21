@@ -13,7 +13,7 @@ type Statement interface {
 
 type Expression interface {
 	Node
-	expressionNode()
+	expressionNode() // not strictly necessary but help go compiler to throw errors
 }
 
 type Program struct {
